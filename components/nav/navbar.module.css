@@ -1,0 +1,59 @@
+.container {
+  color: var(--white10);
+  position: fixed;
+  top: 0px;
+  background-image: linear-gradient(to bottom, var(--gradient-stops));
+
+  --gradient-from: var(--black);
+  --gradient-stops: var(--gradient-from), var(--gradient-to, rgba(0, 0, 0, 0));
+  width: 100%;
+  z-index: 50;
+}
+
+.wrapper {
+  padding-left: 1rem
+    /* 16px */
+  ;
+  padding-right: 1rem
+    /* 16px */
+  ;
+  display: flex;
+  padding: 1.25rem
+    /* 20px */
+  ;
+}
+
+.logoLink {
+  display: flex;
+  font-weight: 500;
+  font-size: 1rem;
+  align-items: center;
+  color: var(--white10);
+  margin-bottom: 1rem
+    /* 16px */
+  ;
+}
+
+.logoWrapper {
+  color: var(--red);
+  width: 80rem
+    /* 128px */
+  ;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    padding-left: 4rem
+      /* 64px */
+    ;
+    padding-right: 4rem
+      /* 64px */
+    ;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .logoLink {
+    margin-bottom: 0px;
+  }
+}
