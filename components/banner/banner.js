@@ -15,8 +15,6 @@ const Banner = (props) => {
       <div className={styles.leftWrapper}>
         <div className={styles.left}>
           <h3 className={styles.title}>{title}</h3>
-          <h3 className={styles.subTitle}>{subTitle}</h3>
-
           <div className={styles.playBtnWrapper}>
             <button className={styles.btnWithIcon} onClick={handleOnPlay}>
               <Image

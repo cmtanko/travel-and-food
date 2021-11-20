@@ -8,7 +8,7 @@ const SectionCards = (props) => {
   const { title, videos = [], size, shouldWrap = false, shouldScale } = props;
   return (
     <section className={styles.container}>
-      <h2 className={styles.title}>{title}</h2>
+      <h5 className={styles.title}>{title}</h5>
       <div className={clsx(styles.cardWrapper, shouldWrap && styles.wrap)}>
         {videos.map((video, idx) => {
           return (

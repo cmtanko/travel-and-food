@@ -82,7 +82,7 @@ export default function Home({ travelVideos, foodVideos, popularVideos }) {
         <SectionCards
           title="Home Kitchen | Session 1"
           videos={foodVideos.filter((v, i) => {
-            if (i >= 22 ) {
+            if (i >= 22) {
               return v;
             }
           })}

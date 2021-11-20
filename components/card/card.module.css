@@ -9,10 +9,10 @@
   
   .smItem {
     position: relative;
-    width: 300px;
-    min-width: 300px;
-    height: 290;
-    min-height: 170px;
+    width: 234px;
+    min-width: 234px;
+    height: 136;
+    min-height: 136px;
   }
   
   .mdItem {
@@ -25,10 +25,10 @@
   
   .lgItem {
     position: relative;
-    width: 400px;
-    min-width: 400px;
-    height: 168px;
-    min-height: 134px;
+    width: 300px;
+    min-width: 300px;
+    height: 128px;
+    min-height: 128px;
   }
   .container {
     margin-right: 0.50rem /* 4px */;
